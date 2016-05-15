@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "The website of Rebecca Bosshart, author, journalist, teacher, redhead.",
   "scripts": {
-    "deploy": "exit 0",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "echo \"Error: no deploy specified\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
