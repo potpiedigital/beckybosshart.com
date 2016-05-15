@@ -1,0 +1,31 @@
+{
+  "name": "beckybosshart.com",
+  "version": "1.0.0",
+  "description": "The website of Rebecca Bosshart, author, journalist, teacher, redhead.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potpiedigital/beckybosshart.com.git"
+  },
+  "keywords": [
+    "becky",
+    "bosshart",
+    "website",
+    "author",
+    "journalist",
+    "teacher",
+    "redhead"
+  ],
+  "collaborators": [
+    "Ashley Siebels <heyo@ashleysiebels.com> (http://ashleysiebels.com)",
+    "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com)",
+    "Mark Hayes <mark.m.hayes1@gmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potpiedigital/beckybosshart.com/issues"
+  },
+  "homepage": "https://potpiedigital.github.io/beckybosshart.com"
+}
