@@ -13,7 +13,7 @@ const {
 
 const url = TRAVIS
     ? `https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}`
-    : 'git@github.com:mysterycommand/mysterycommand.github.io.git';
+    : 'git@github.com:potpiedigital/beckybosshart.com.git';
 
 const cwd = process.cwd();
 const deployDir = path.resolve(cwd, './deploy');
