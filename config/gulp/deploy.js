@@ -25,7 +25,7 @@ const outDir = isPr
     : `${deployDir}`;
 
 const steps = [{
-    cmd: `git clone -qb master --single-branch ${url} deploy > /dev/null 2>&1`,
+    cmd: `git clone -qb gh-pages --single-branch ${url} deploy > /dev/null 2>&1`,
     opts: null,
 },{
     cmd: `mkdir -p ${outDir}`,
