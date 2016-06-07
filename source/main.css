@@ -30,6 +30,9 @@ div p {
 
 .in-text {
     margin: 0;
+    padding-left: 0.5%;
+    color: #ff5d00;
+    font-size: 15px;
 }
 
 .second-nav {
@@ -69,6 +72,7 @@ div p {
 
 span {
     color: #ff5d00;
+
 }
 
 p {
@@ -76,7 +80,7 @@ p {
     font-family: Open Sans;
     font-size: 12px;
     margin-top: 0;
-    color: #ff5d00;
+    color: #000000;
     margin-bottom: 45px;
     text-decoration: bold;
 }
@@ -113,9 +117,7 @@ h3 {
     font-family: Helvetica;
     font-size: 40px;
     font-weight: lighter;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 h5 {
