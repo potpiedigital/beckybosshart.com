@@ -56,7 +56,6 @@ div p {
     margin: 5px auto;
     width: 520px;
 }
-<<<<<<< HEAD
 .sub-title{
     text-align: center;
     font-family: Open Sans;
@@ -68,13 +67,7 @@ div p {
 }
 span{
     color: #FF5D00;
-=======
-
-span {
-    color: #ff5d00;
->>>>>>> origin/Purple906/mobile-site
 }
-
 p {
     text-align: center;
     font-family: Open Sans;
@@ -88,14 +81,9 @@ p {
 nav {
     text-align: center;
 }
-<<<<<<< HEAD
-a{
-    margin:0px 40px;
-=======
 
 a {
     margin: 0px;
->>>>>>> origin/Purple906/mobile-site
     font-size: 22px;
     font-family: helvetica;
     text-decoration: none;
