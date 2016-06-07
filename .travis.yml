@@ -6,6 +6,11 @@ branches:
     - master
 script:
     - npm test
+    - npm run build
+env:
+    global:
+    - GH_REPO: github.com/${TRAVIS_REPO_SLUG}
+    - secure: X8ZnpeslJ9hWl32FMtePEDOO+G1CgyzqWI9BrhsPYlZMHPXk1UYYEFWGk10l8V5nDFroSujkQzciiu2JEr7VZHw16aOnuinDAmfV0QBCFc547PTlICV50NvCq6duqEFZKpty8gjVgYYPZ2r3k62jkCk9+/S5UvtnAlieRITgm7BwkNR7+NAPTO7T4fq9OizlXaRzxnSYj7dlf+T++s+eBVDjP9LR0f4C5XCpGBR3oK86Qtw4Vg2x9drYxBogOzLNN/4rAXH8dlhMXTo2OBG0/YJPp45m8OgzSwQ7d1cx1RaAZSpQNMSdcNZ4qExNM+F5vEjlPj3pHukqrlqaixoChhrl5xN05PgMwVFQtqJU72yDVlE+ibzePmN3tz0E2IBu+uDbY69gkLwIQJ2FzhSPdphMTRhBVdLQ9Ky/ulADc28hzXqseGhjpT0oNBGKl/83+WMNPvVgLbN+9MERiMSm7QemP/1xL9Br4oOUc5FyaKx+2uD4cBQ+7578Z9HqVtWgB3MtbZjp7GOo1eKg3Boqar0VfVvANBgP2/8U9LfVZ/mLOLbXzSTLlPBwR4FLVC2+VB9o/6evXs67j7y4o4e9+oMa46LWY1+iQiUN8LSMeCZVDqx6wDih36SAXPR1fUy4yjccWhP4OE19IfXl6XIRRRqa94itsSWx3G3XY8FVdTg=
 after_success:
     - npm run deploy
 
