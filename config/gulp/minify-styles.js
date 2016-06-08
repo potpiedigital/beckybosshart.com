@@ -7,6 +7,6 @@ export default () => {
         .src(['source/**/*.css'])
         .pipe(gsourcemaps.init())
         .pipe(gcleanCss())
-        .pipe(gsourcemaps.write())
+        .pipe(gsourcemaps.write('./'))
         .pipe(gulp.dest('public'));
 }
