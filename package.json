@@ -4,6 +4,7 @@
   "description": "The website of Rebecca Bosshart, author, journalist, teacher, redhead.",
   "scripts": {
     "build": "gulp",
+    "prebuild": "rm -rf public/ deploy/",
     "deploy": "gulp deploy",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
