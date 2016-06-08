@@ -1,14 +1,19 @@
 import gulp from 'gulp';
 
-import copy from './config/gulp/copy';
 import deploy from './config/gulp/deploy';
-import html from './config/gulp/html';
+
+import copy from './config/gulp/copy';
+import minifyMarkup from './config/gulp/minify-markup';
+import minifyStyles from './config/gulp/minify-styles';
+
+gulp.task('deploy', deploy);
 
 gulp.task('copy', copy);
-gulp.task('deploy', deploy);
-gulp.task('html', html);
+gulp.task('minifyMarkup', minifyMarkup);
+gulp.task('minifyStyles', minifyStyles);
 
 gulp.task('default', [
     'copy',
-    'html',
+    'minifyMarkup',
+    'minifyStyles',
 ]);
