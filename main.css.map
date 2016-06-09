@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAEA,KADA,KAEI,OAAQ,KAGZ,KACI,OAAQ","file":"main.css","sourceRoot":"/source/","sourcesContent":["/* This is just a test CSS file. */\nhtml,\nbody {\n    height: 100%;\n}\n\nbody {\n    margin: 0;\n}\n"]}
