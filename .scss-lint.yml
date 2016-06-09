@@ -1,5 +1,7 @@
 scss_files: 'source/**/*.{css|scss}'
 linters:
+    Comment:
+        style: loud
     Indentation:
         enabled: true
         allow_non_nested_indentation: false
