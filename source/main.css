@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 
 .info {
     margin: 0 auto;
@@ -29,11 +32,12 @@ img {
     margin: 0 auto;
 }
 
-.in-text {
+.more-photos {
     margin: 0;
     padding-left: 0.5%;
     color: #ff5d00;
     font-size: 15px;
+    font-weight: normal;
 }
 
 .second-nav {
@@ -74,7 +78,6 @@ img {
 
 span {
     color: #ff5d00;
-
 }
 
 p {
@@ -127,6 +130,7 @@ h3 {
 h4{
     font-weight: bold;
     color: #000000;
+    margin-bottom: 2px;
 }
 
 h5 {
@@ -142,8 +146,4 @@ h6 {
     margin: 0;
     font-weight: normal;
     color: #ff5d00;
-}
-
-footer {
-    background-color: pink;
 }
