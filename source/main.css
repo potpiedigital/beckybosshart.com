@@ -50,6 +50,7 @@ img {
 }
 
 .social-link {
+    display: inline-block;
     margin: auto 60px;
     text-align: center;
     font-size: 22px;
