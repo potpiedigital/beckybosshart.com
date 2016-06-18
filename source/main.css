@@ -124,6 +124,11 @@ h3 {
     margin: 20px auto;
 }
 
+h4{
+    font-weight: bold;
+    color: #000000;
+}
+
 h5 {
     display: inline-block;
     text-align: center;
@@ -135,6 +140,8 @@ h5 {
 
 h6 {
     margin: 0;
+    font-weight: normal;
+    color: #ff5d00;
 }
 
 footer {
