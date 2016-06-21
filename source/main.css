@@ -1,5 +1,5 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
 }
 
 .info {
@@ -8,56 +8,57 @@ body{
 }
 
 div p {
-    text-align: left;
     color: #000000;
-    font-size: 14px;
     font-family: helvetica;
+    font-size: 14px;
+    text-align: left;
 }
 
 .hero-image {
-    display: block;
-    width: auto;
-    height: auto;
-    background-image: url("./images/bb-photo1.png");
-    background-repeat: no-repeat;
+    background-image: url('./images/bb-photo1.png');
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    height: auto;
     text-align: center;
+    width: auto;
 }
 
 img {
     display: block;
-    max-width: 100%;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .more-photos {
-    margin: 0;
-    padding-left: 0.5%;
     color: #ff5d00;
     font-size: 15px;
     font-weight: normal;
+    margin: 0;
+    padding-left: 0.5%;
 }
 
 .second-nav {
-    height: auto;
-    width: 100%;
-    text-align: center;
     background-color: #000000;
+    height: auto;
+    text-align: center;
+    width: 100%;
 }
 
 .social-home {
     display: inline-block;
-    width: auto;
     margin: 0 auto;
+    width: auto;
 }
 
 .social-link {
     display: inline-block;
+    font-size: 22px;
     margin: auto 60px;
     text-align: center;
-    font-size: 22px;
 }
+
 
 /*.foot-step {
     border-bottom: 2px solid #000000;
@@ -66,12 +67,12 @@ img {
 }*/
 
 .sub-title {
-    text-align: center;
+    color: #ff5d00;
     font-family: Open Sans;
     font-size: 20px;
-    margin-top: 0;
-    color: #ff5d00;
     margin-bottom: 45px;
+    margin-top: 0;
+    text-align: center;
     text-decoration: bold;
 }
 
@@ -80,43 +81,43 @@ span {
 }
 
 p {
-    text-align: center;
+    color: #000000;
     font-family: Open Sans;
     font-size: 12px;
-    margin-top: 0;
-    color: #000000;
     margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
     text-decoration: bold;
 }
 
 nav {
+    margin: 0 auto;
     text-align: center;
-    margin: 0px auto;
 }
 
 a {
-    margin: 0 5%;
-    font-size: 150%;
-    font-family: helvetica;
-    text-decoration: none;
     color: #000000;
     display: inline;
+    font-family: helvetica;
+    font-size: 150%;
+    margin: 0 5%;
+    text-decoration: none;
 }
 
 h1 {
-    text-align: center;
-    font-size: 300.583333%;
     font-family: Helvetica;
+    font-size: 300.583333%;
     margin-bottom: 0;
     margin-top: 40px;
+    text-align: center;
 }
 
 h2 {
+    color: #ffffff;
     float: right;
     font-size: 34px;
-    padding-right: 20px;
     margin: auto;
-    color: #ffffff;
+    padding-right: 20px;
 }
 
 h3 {
@@ -126,7 +127,7 @@ h3 {
     margin: 20px auto;
 }
 
-h4{
+h4 {
     color: #000000;
     font-size: 14px;
     font-weight: bold;
@@ -150,44 +151,51 @@ h6 {
     margin: 0;
 }
 
+
 /*copy content for dropdown menu*/
+
 .dropbtn {
     background-color: #000000;
-    color: white;
-    font-size: 20px;
-    border: none;
+    border: 0;
+    color: #ffffff;
     cursor: pointer;
+    font-size: 20px;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: #ff5d00;
 }
 
 .dropdown {
-    float: left;
-    position: relative;
     display: inline-block;
-    padding-left: 10px;
+    float: left;
     margin-top: 2.5px;
+    padding-left: 10px;
+    position: relative;
 }
 
 .dropdown-content {
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     display: none;
     font-size: 12px;
-    position: absolute;
-    background-color: #f9f9f9;
     min-width: 160px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #000;
+    display: block;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
 }
 
-.dropdown a:hover {background-color: #f1f1f1}
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
 
-.show {display:block;}
+.show {
+    display: block;
+}

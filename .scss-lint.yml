@@ -1,7 +1,11 @@
 scss_files: 'source/**/*.{css|scss}'
 linters:
+    ColorVariable:
+        enabled: false
     Comment:
         style: loud
+    HexLength:
+        enabled: false
     Indentation:
         enabled: true
         allow_non_nested_indentation: false
@@ -10,3 +14,5 @@ linters:
         severity: error
     LeadingZero:
         style: include_zero
+    MergeableSelector:
+        enabled: false
