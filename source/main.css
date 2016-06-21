@@ -18,7 +18,6 @@ div p {
     display: block;
     width: auto;
     height: auto;
-    /*margin: 0 auto;*/
     background-image: url("./images/bb-photo1.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -128,24 +127,27 @@ h3 {
 }
 
 h4{
-    font-weight: bold;
     color: #000000;
+    font-size: 14px;
+    font-weight: bold;
     margin-bottom: 2px;
 }
 
 h5 {
-    display: inline-block;
-    text-align: center;
-    font-size: 70px;
     color: #ffffff;
+    display: inline-block;
+    font-size: 70px;
     font-weight: lighter;
-    /*margin-top: 320px;*/
+    letter-spacing: 4px;
+    line-height: 0.9;
+    text-align: center;
 }
 
 h6 {
-    margin: 0;
-    font-weight: normal;
     color: #ff5d00;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
 }
 
 /*copy content for dropdown menu*/
