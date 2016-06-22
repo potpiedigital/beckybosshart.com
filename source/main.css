@@ -88,13 +88,13 @@ nav {
 
 nav > a {
     font-size: 150%;
+    margin: 0 5%;
 }
 
 a {
     color: #000000;
     display: inline-block;
     font-family: helvetica;
-    margin: 0 5%;
     text-decoration: none;
 }
 
