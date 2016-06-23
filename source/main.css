@@ -76,6 +76,11 @@ span {
     color: #ff5d00;
 }
 
+span > a {
+    color: #ff5d00;
+    display: inline;
+}
+
 p {
     margin-bottom: 20px;
     margin-top: 0;
