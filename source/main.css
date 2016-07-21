@@ -146,3 +146,10 @@ h6 {
     font-weight: normal;
     margin: 0;
 }
+
+@media screen and (min-width:960px){
+    body{
+        width: 960px;
+        margin: 0px auto;
+    }
+}
