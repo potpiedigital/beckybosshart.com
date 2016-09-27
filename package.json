@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "The website of Rebecca Bosshart, author, journalist, teacher, redhead.",
   "scripts": {
+    "clean:public": "rm -rf public/",
+    "clean:deploy": "rm -rf deploy/",
     "build": "gulp",
-    "prebuild": "rm -rf public/ deploy/",
+    "prebuild": "npm run clean:public",
     "deploy": "gulp deploy",
+    "predeploy": "npm run clean:deploy && npm run build",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
